@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+
+.style{
+  font-family:"Cookie", cursive ;
+}
+
+.style2{
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.mob{
+  animation: slide 3s ease 1s infinite forwards ;
+
+}
+
+
+@keyframes slide {
+  0%{
+    margin-left: 0%;
+  }
+  25%{
+    margin-left: 0%;
+  }
+
+ 
+  100%{
+    margin-left: -100%;
+  }
+  
+}

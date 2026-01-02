@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+.style{
+  font-family:"Cookie", cursive ;
+  /* background-color: #ffffff69; */
+  /* background-color: rgba(0, 0, 0, 0.308); */
+}
+
+
+.imgg{
+  background-image: url("https://preview.colorlib.com/theme/ashion/img/categories/category-1.jpg.webp");
+  /* height: 100%;
+  width: 100%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+@theme {
+  --breakpoint-tin:320px;
+   --breakpoint-tin1:380px
+  /* --breakpoint-xs: 480px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+
+  /* custom breakpoint
+  --breakpoint-mobile: 390px;
+  --breakpoint-tab: 900px;
+  */
+} 
